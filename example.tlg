@@ -1,0 +1,7 @@
+veru x = 10
+
+ayithe (x > 5) {
+    cheppu "Big number!"
+} lekapothe {
+    cheppu "Small number!"
+}

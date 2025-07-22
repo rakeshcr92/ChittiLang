@@ -1,0 +1,10 @@
+veru n = 5
+
+seva fact(x) {
+    ayithe (x <= 1) {
+        tirugu 1
+    }
+    tirugu x * fact(x - 1)
+}
+
+cheppu "fact(", n, ") =", fact(n)
